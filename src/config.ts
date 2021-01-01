@@ -211,6 +211,7 @@ const notifications = {
 			'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
 			xboxss: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSS),
 			xboxsx: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX)
+
 		},
 		webhooks: envOrArray(process.env.DISCORD_WEB_HOOK)
 	},
@@ -362,6 +363,7 @@ const store = {
 			'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
 			xboxss: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSS),
 			xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX)
+			
 		}
 	},
 	microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
@@ -378,9 +380,6 @@ const store = {
 		'3070',
 		'3080',
 		'3090',
-		'rx6800',
-		'rx6800xt',
-		'rx6900xt',
 		'ryzen5600',
 		'ryzen5800',
 		'ryzen5900',
@@ -388,9 +387,10 @@ const store = {
 		'sonyps5c',
 		'sonyps5de',
 		'xboxss',
-		'xboxsx'
+		'xboxsx',
+		'darkhero'
 	]),
-	stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(
+	stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy', 'newegg']).map(
 		(entry) => {
 			const [name, minPageSleep, maxPageSleep] =
 				entry.match(/[^:]+/g) ?? [];

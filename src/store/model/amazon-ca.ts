@@ -255,38 +255,6 @@ export const AmazonCa: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.amazon.ca/dp/B08GS1N24H'
-		},
-		{
-			brand: 'microsoft',
-			cartUrl:
-				'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08H75RTZ8&Quantity.1=1',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url: 'https://www.amazon.ca/dp/B08H75RTZ8'
-		},
-		{
-			brand: 'microsoft',
-			cartUrl:
-				'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08G9J44ZN&Quantity.1=1',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url: 'https://www.amazon.ca/dp/B08G9J44ZN'
-		},
-		{
-			brand: 'xfx',
-			cartUrl:
-				'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08NX14LV1&Quantity.1=1',
-			model: 'merc',
-			series: 'rx6800xt',
-			url: 'https://www.amazon.ca/dp/B08NX14LV1'
-		},
-		{
-			brand: 'sapphire',
-			cartUrl:
-				'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08PQ585CX&Quantity.1=1',
-			model: 'pulse',
-			series: 'rx6800xt',
-			url: 'https://www.amazon.ca/dp/B08PQ585CX'
 		}
 	],
 	name: 'amazon-ca'
